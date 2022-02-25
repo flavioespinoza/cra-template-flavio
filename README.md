@@ -1,5 +1,5 @@
-[![npm version](https://badge.fury.io/js/cra-template-recoil.svg)](https://badge.fury.io/js/cra-template-recoil)
-![npm downloads](https://img.shields.io/npm/dm/cra-template-recoil)
+[![npm version](https://badge.fury.io/js/cra-template-flavio.svg)](https://badge.fury.io/js/cra-template-flavio)
+![npm downloads](https://img.shields.io/npm/dm/cra-template-flavio)
 
 # Create React App template with Recoil
 
