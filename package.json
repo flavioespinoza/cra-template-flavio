@@ -1,0 +1,57 @@
+{
+  "name": "cra-template-flavio",
+  "version": "1.0.0",
+  "description": "Create React App custom template",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "recoil",
+    "state management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/cra-template-flavio.git"
+  },
+  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/cra-template-flavio/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/cra-template-flavio#readme",
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "recoil": "^0.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "clean-files": "rm -rf ./template/public ./template/src",
+    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp README.md template/",
+    "prepublishOnly": "yarn clean-files && yarn copy-files"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
