@@ -1,9 +1,9 @@
-import React from 'react'
-import { RecoilRoot } from 'recoil'
+import React from 'react';
+import { RecoilRoot } from 'recoil';
 
-import Counter from './components/Counter'
+import Counter from './components/Counter';
 
-import './App.css'
+import './App.css';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <h1>The project is running with Recoil</h1>
       <Counter />
     </RecoilRoot>
-  )
+  );
 }
 
-export default App
+export default App;
