@@ -7,6 +7,8 @@ This template provides you a project with [Recoil](https://recoiljs.org/) setup.
 
 ## Getting Started
 
+Create a new React app using this template
+
 ```bash
 yarn create react-app your-project-name --template flavio
 ```
@@ -23,6 +25,7 @@ Install dependencies
 yarn install
 ```
 
+Start the app
 
 ```bash
 yarn start
