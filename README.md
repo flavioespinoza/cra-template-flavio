@@ -1,8 +1,5 @@
 [![Npm package version](https://badgen.net/npm/v/cra-template-flavio)](https://npmjs.com/package/cra-template-flavio)
 
-[![Npm package total downloads](https://badgen.net/npm/dt/cra-template-flavio)](https://npmjs.com/package/cra-template-flavio)
-
-
 # Create React App template with Recoil
 
 This template provides you a project with [Recoil](https://recoiljs.org/) setup.
